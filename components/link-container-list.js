@@ -13,6 +13,6 @@ export const LinkContainerList = () => {
         }, null)
     });
     return (
-        e('div', { className: 'flex jc-c' }, linkContainers)
+        e('div', { className: 'flex flex-wrap jc-c' }, linkContainers)
     );
 };

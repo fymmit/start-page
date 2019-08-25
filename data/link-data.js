@@ -14,12 +14,27 @@ const twitch = {
     imageUrl: 'https://www.twitch.tv/p/assets/uploads/twitch_474x356.png',
     link: 'https://twitch.tv/',
     linkText: 'Twitch',
-}
+};
+
+const github = {
+    imageUrl: 'https://i.pinimg.com/originals/2c/b6/70/2cb670b6ddd8922a1c1b2fee4f6f758c.jpg',
+    link: 'https://github.com',
+    linkText: 'Github',
+};
+
+const whatsapp = {
+    imageUrl: 'https://whatsappbrand.com/wp-content/themes/whatsapp-brc/images/WhatsApp_Logo_2.png',
+    link: 'https://web.whatsapp.com',
+    linkText: 'Whatsapp',
+};
+
 
 const links = [
     reddit,
     youtube,
     twitch,
+    github,
+    whatsapp,
 ];
 
 export default links;

@@ -19,6 +19,9 @@ a {
 .flex {
     display: flex;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}
 .jc-sb {
     justify-content: space-between;
 }
