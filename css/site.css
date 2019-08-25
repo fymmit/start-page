@@ -38,8 +38,8 @@ a {
 .align-self-center {
     align-self: center;
 }
-.h-100p {
-    height: 100vh;
+.min-h-100p {
+    min-height: 100vh;
 }
 .h-50p {
     height: 50vh;

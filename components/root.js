@@ -4,7 +4,7 @@ const e = React.createElement;
 
 export const Root = () => {
     return (
-        e('div', { className: 'flex-col jc-sb h-100p' }, [
+        e('div', { className: 'flex-col jc-sb min-h-100p' }, [
             e(LinkContainerList, { key: 'link-list' }, null),
             e(WeatherFrame, {
                 key: 'weather',
